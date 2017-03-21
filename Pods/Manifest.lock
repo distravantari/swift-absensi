@@ -1,0 +1,80 @@
+PODS:
+  - Alamofire (4.2.0)
+  - AlamofireImage (3.2.0):
+    - Alamofire (~> 4.1)
+  - AlamofireReactive (2.0.0):
+    - Alamofire (= 4.2)
+    - ReactiveKit (~> 3.1)
+  - Bond (6.1.1):
+    - Diff (~> 0.4)
+    - ReactiveKit (~> 3.4)
+  - Cheetah (0.4.1)
+  - CWStatusBarNotification (2.3.5)
+  - Diff (0.5.3)
+  - EZSwiftExtensions (1.9)
+  - FontAwesome.swift (1.0.0)
+  - KIF (3.5.1):
+    - KIF/Core (= 3.5.1)
+  - KIF/Core (3.5.1)
+  - Mockingjay (2.0.0):
+    - Mockingjay/Core (= 2.0.0)
+    - Mockingjay/XCTest (= 2.0.0)
+  - Mockingjay/Core (2.0.0):
+    - URITemplate (~> 2.0)
+  - Mockingjay/XCTest (2.0.0):
+    - Mockingjay/Core
+  - Nimble (6.0.1)
+  - PKHUD (4.2.0)
+  - Quick (1.1.0)
+  - Reachability (3.2)
+  - ReactiveKit (3.4.2)
+  - SnapKit (3.2.0)
+  - SwiftKeychainWrapper (3.0.1)
+  - SwiftyJSON (3.1.4)
+  - URITemplate (2.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - AlamofireReactive
+  - Bond (~> 6.1.1)
+  - Cheetah
+  - CWStatusBarNotification
+  - EZSwiftExtensions
+  - FontAwesome.swift
+  - KIF
+  - Mockingjay
+  - Nimble
+  - PKHUD
+  - Quick
+  - Reachability
+  - ReactiveKit
+  - SnapKit
+  - SwiftKeychainWrapper
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
+  AlamofireReactive: 1342e3ae546d02af21d370eadd7c34b7308cc473
+  Bond: ffe5fe3be164b5dadf1b6c7d6566f45b0f16657b
+  Cheetah: 14e1eff625b9e02ffa8d3fd1157236d6f20d71be
+  CWStatusBarNotification: 3d2738b25c3207f60cc50201388d3c96182545ff
+  Diff: befa1d19c32726b2b36ce915d98793e2fbde8dcc
+  EZSwiftExtensions: ce22bf6fc5c6e7c883fec413300b006e123735d0
+  FontAwesome.swift: 2d32a3d62195343c2004b7c9043294ed2948553a
+  KIF: 082eb65279e51c3092923802849eb796a04982ab
+  Mockingjay: 7122a3fc0597aa63438e4cd9b71b7bc8aac05b87
+  Nimble: 1527fd1bd2b4cf0636251a36bc8ab37e81da8347
+  PKHUD: 48af884cf00c2213b0313b739d914e6cab1c0f5e
+  Quick: dafc587e21eed9f4cab3249b9f9015b0b7a7f71d
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  ReactiveKit: 6022ac2294a3f3c33b1692f9cc0858de510a8f62
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  SwiftKeychainWrapper: 38952a3636320ae61bad3513cadd870929de7a4a
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  URITemplate: a5acb3f76c6a2338116fde88b658d83f91bbac45
+
+PODFILE CHECKSUM: 9483a556a816099d583c09964b712003c1754df2
+
+COCOAPODS: 1.2.0
