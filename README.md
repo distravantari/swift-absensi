@@ -160,3 +160,10 @@ var distra = MyCar(door: 4, topSpeed: 200)
 distra.door
 distra.GetTopSpeed()
 ```
+
+# How to Start the application
+Note: if you have an error like this link: https://github.com/CocoaPods/CocoaPods/issues/2303
+please close your xcode, and run pod install on your terminal
+
+after all done, simply run your emulator. and
+HAVE FUN
