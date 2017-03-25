@@ -9,7 +9,7 @@ def shared_pods
   pod 'EZSwiftExtensions'
   pod 'SwiftKeychainWrapper'
   pod 'SnapKit'
-  pod 'Dropdown'
+  pod 'DropDown'
 end
 
 def test_pods

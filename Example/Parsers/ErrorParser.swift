@@ -1,6 +1,5 @@
 //
 //  ErrorParser.swift
-//  Peeqr
 //
 //  Created by East Agile on 1/6/17.
 //  Copyright © 2017 node8. All rights reserved.

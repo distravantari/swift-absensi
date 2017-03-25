@@ -1,6 +1,5 @@
 //
 //  NSError+Helpers.swift
-//  Peeqr
 //
 //  Created by Buu Bui on 12/15/16.
 //  Copyright © 2016 node8. All rights reserved.

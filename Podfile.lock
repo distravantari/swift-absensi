@@ -11,6 +11,7 @@ PODS:
   - Cheetah (0.4.1)
   - CWStatusBarNotification (2.3.5)
   - Diff (0.5.3)
+  - DropDown (2)
   - EZSwiftExtensions (1.9)
   - FontAwesome.swift (1.0.0)
   - KIF (3.5.1):
@@ -40,6 +41,7 @@ DEPENDENCIES:
   - Bond (~> 6.1.1)
   - Cheetah
   - CWStatusBarNotification
+  - DropDown
   - EZSwiftExtensions
   - FontAwesome.swift
   - KIF
@@ -61,6 +63,7 @@ SPEC CHECKSUMS:
   Cheetah: 14e1eff625b9e02ffa8d3fd1157236d6f20d71be
   CWStatusBarNotification: 3d2738b25c3207f60cc50201388d3c96182545ff
   Diff: befa1d19c32726b2b36ce915d98793e2fbde8dcc
+  DropDown: 744784d9c9aa505100e942c16acd05430cbb2f0a
   EZSwiftExtensions: ce22bf6fc5c6e7c883fec413300b006e123735d0
   FontAwesome.swift: 2d32a3d62195343c2004b7c9043294ed2948553a
   KIF: 082eb65279e51c3092923802849eb796a04982ab
@@ -75,6 +78,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
   URITemplate: a5acb3f76c6a2338116fde88b658d83f91bbac45
 
-PODFILE CHECKSUM: 9483a556a816099d583c09964b712003c1754df2
+PODFILE CHECKSUM: 5cfe576aa5219ee0b0bb342d1b5e64c9a5102c8a
 
 COCOAPODS: 1.2.0

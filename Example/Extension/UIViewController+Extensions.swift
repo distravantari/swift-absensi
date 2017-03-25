@@ -1,6 +1,5 @@
 //
 //  UIViewController+Extensions.swift
-//  Peeqr
 //
 //  Created by East Agile on 12/12/16.
 //  Copyright © 2016 node8. All rights reserved.

@@ -1,6 +1,5 @@
 //
 //  ErrorParserString.swift
-//  Presentr
 //
 //  Created by Node8 on 2/27/17.
 //  Copyright © 2017 Lususlab. All rights reserved.

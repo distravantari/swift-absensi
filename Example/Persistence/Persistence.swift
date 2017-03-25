@@ -1,6 +1,5 @@
 //
 //  Persistence.swift
-//  Peeqr
 //
 //  Created by East Agile on 12/15/16.
 //  Copyright © 2016 node8. All rights reserved.

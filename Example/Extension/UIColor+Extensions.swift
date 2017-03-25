@@ -1,6 +1,5 @@
 //
 //  UIColor+Extensions.swift
-//  Presentr
 //
 //  Created by Node8 on 2/21/17.
 //  Copyright © 2017 Lususlab. All rights reserved.

@@ -36,6 +36,16 @@
                                     <color key="titleColor" red="0.98205234272871789" green="1" blue="0.98280048500115591" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tdc-D1-Gd4">
+                                <rect key="frame" x="67" y="483" width="240" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qfj-mg-UdU">
+                                <rect key="frame" x="67" y="445" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.32720670104026794" green="0.4320627748966217" blue="0.47800981998443604" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -52,12 +62,14 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="choosePhoneArea" destination="Qfj-mg-UdU" id="5gY-My-g9k"/>
+                        <outlet property="phoneInit" destination="Tdc-D1-Gd4" id="0PZ-bn-O9o"/>
                         <outlet property="secondButton" destination="GlE-ZJ-7lB" id="nBJ-gE-zZN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="89" y="36"/>
+            <point key="canvasLocation" x="88.799999999999997" y="35.532233883058474"/>
         </scene>
         <!--First View Controller-->
         <scene sceneID="HAE-sy-RQN">
@@ -209,10 +221,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" selectionStyle="default" indentationWidth="10" rowHeight="79" translatesAutoresizingMaskIntoConstraints="NO" id="Mcq-u8-ijH">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="67"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Mcq-u8-ijH" id="YFW-GU-kcE">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="66"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="0.36074113845825195" green="0.7562137246131897" blue="0.29697427153587341" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

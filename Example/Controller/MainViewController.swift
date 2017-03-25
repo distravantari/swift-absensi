@@ -9,16 +9,27 @@
 import UIKit
 import Bond
 import ReactiveKit
+import DropDown
 
 class MainViewController: UIViewController {
     
     @IBOutlet weak var secondButton: UIButton!
+    @IBOutlet weak var choosePhoneArea: UIButton!
+    @IBOutlet weak var phoneInit: UIView!
+    
+    let dropDown = DropDown()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         bindViewModel()
+        setupDropDown()
     }
     
-//    @IBOutlet weak var InitialPhoneNumber: UITextField!
+    @IBAction func choosePhoneArea(_ sender: AnyObject) {
+        dropDown.show()
+    }
+    
+    
 }
 
 extension MainViewController {
@@ -26,6 +37,25 @@ extension MainViewController {
         secondButton.reactive.tap.observeNext { [weak self] in
             self?.goVeried()
             }.dispose(in: reactive.bag)
+    }
+    
+    func setupDropDown() {
+        
+        // The view to which the drop down will appear on
+        dropDown.anchorView = phoneInit // UIView or UIBarButtonItem
+        
+        dropDown.bottomOffset = CGPoint(x: 0, y: choosePhoneArea.bounds.height)
+        
+        // Will set a custom width instead of the anchor view width
+        dropDown.width = 400
+        
+        // The list of items to display. Can be changed dynamically
+        dropDown.dataSource = ["Car", "Motorcycle", "Truck"]
+        
+        // Action triggered on selection
+        dropDown.selectionAction = { [unowned self] (index, item) in
+            print("Selected item: \(item) at index: \(index)")
+        }
     }
     
     //en example using segue (but I still don't know how to do it)
