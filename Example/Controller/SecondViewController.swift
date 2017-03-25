@@ -25,19 +25,6 @@ class SecondViewController: UIViewController {
 
 extension SecondViewController {
   func bindViewModel() {
-    viewModel.user.bidirectionalBind(to: username.reactive.text)
     
-    done.reactive.tap.observeNext { [weak self, bag = self.reactive.bag] in
-      HUD.show(.systemActivity)
-      self?.viewModel.loadRoom().observe { event in
-        HUD.hide()
-        if case .failed(let error) = event {
-          self?.showAlertMessage(error.localizedDescription)
-        } else if case .completed = event {
-          self?.showSuccessMessage("Please confirm your email address and then log in")
-          self?.dismiss(animated: true, completion: nil)
-        }
-        }.dispose(in: bag)
-      }.dispose(in:reactive.bag)
   }
 }
