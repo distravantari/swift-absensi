@@ -226,16 +226,38 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Mcq-u8-ijH" id="YFW-GU-kcE">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="66"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S91-Ud-7Xr">
+                                            <rect key="frame" x="14" y="18" width="70" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" title="Refresh"/>
+                                        </button>
+                                    </subviews>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="0.36074113845825195" green="0.7562137246131897" blue="0.29697427153587341" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </tableViewCell>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1M9-kI-PMR">
+                                <rect key="frame" x="71" y="172" width="247" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HF8-e1-03m">
+                                        <rect key="frame" x="6" y="8" width="235" height="224"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.80366533994674683" green="0.84963923692703247" blue="0.8759118914604187" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="QRCode" destination="1M9-kI-PMR" id="fp0-7C-nJ2"/>
+                        <outlet property="imgDisplay" destination="HF8-e1-03m" id="qff-Rq-7Vf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TxT-He-5GZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="849" y="730"/>
+            <point key="canvasLocation" x="848.79999999999995" y="729.98500749625191"/>
         </scene>
     </scenes>
 </document>

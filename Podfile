@@ -10,6 +10,7 @@ def shared_pods
   pod 'SwiftKeychainWrapper'
   pod 'SnapKit'
   pod 'DropDown'
+  pod 'RSBarcodes_Swift', '~> 3.0.3'
 end
 
 def test_pods

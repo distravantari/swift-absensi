@@ -99,6 +99,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>RSBarcodes_Swift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Reachability.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -147,12 +152,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>1CFD07D77F74A729270C40AF70B2FA4D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>2ED2A949DDD54EB688701F26BF9C351E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>40717E84B58A32D71E6615110C9C4DBF</key>
+		<key>41094B18C1D2095E0B4499BEB36F2E4A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -162,12 +172,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4EBB37F4643BD0B5BCA7CA0AED28DD01</key>
+		<key>5168099F2EBFC99A707C03C9EADE01A5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5168099F2EBFC99A707C03C9EADE01A5</key>
+		<key>589EC9A06BE197BB601A4B7C617F0220</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -178,6 +188,11 @@
 			<true/>
 		</dict>
 		<key>5BAEE407D509A3F67350A21DD9179E25</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>68FE59AD86812E07371E9E01D9E7F0A2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -202,7 +217,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>96771A4E9CF9EA6B4BAF36BD7E4A6E53</key>
+		<key>95635EF152AB102BB9EE723D45009D80</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9D932922886A6B2837F4B146B182CFA0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -212,17 +232,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A0347B797A45E7854C12C33A63CD083E</key>
+		<key>A18D3BF092E1C3C22D551ECA6E673F7B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B8484C82F9B4CC4F48D15A57D8D6A1E5</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C7165ED5216BFC30C44E9680E6665558</key>
+		<key>B5CE5682D5EEAA57919A14C4AE16CDC2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -237,17 +252,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E440BCBA2F8C9D431063D917C063668B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>F2462BA726592BDA9B6792F284C86413</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F47BCE13C44D2C489D02690DA2FF0B9F</key>
+		<key>F8D4CD606BA769162E7527D520E7B094</key>
 		<dict>
 			<key>primary</key>
 			<true/>
